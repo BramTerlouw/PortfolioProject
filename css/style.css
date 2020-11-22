@@ -251,3 +251,68 @@ img {
     color: white;
 }
 
+@media screen and (max-width: 1200px) {
+    li a {
+        font-size: 20px;
+    }
+
+    #home-aside-container {
+        flex-basis: 90%;
+        order: 3;
+    }
+
+    #home-article-container {
+        flex-basis: 90%;
+        order: 2;
+    }
+
+    #home-article-header {
+        font-size: 40px;
+    }
+
+    #home-article-content {
+        font-size: 15px;
+    }
+
+    #picture-container {
+        flex-basis: 90%;
+        flex-grow: 0;
+        flex-shrink: 0;
+        order: 2;
+    }
+
+    #picture-aside-container {
+        flex-basis: 90%;
+        flex-grow: 0;
+        flex-shrink: 0;
+        order: 1;
+    }
+
+    #grid-parent {
+        margin-top: 50px;
+        grid-template-columns: repeat(2, 45vw);
+    }
+
+    .picture-aside {
+        height: auto;
+    }
+
+    #picture-aside-header {
+        font-size: 40px;
+    }
+
+    img {
+        width: 45vw;
+        height: 45vw;
+    }
+
+    .skills-logos {
+        margin: 2% 40% 0 40%;
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .articleclass {
+        margin: 2% 25% 7% 25%;
+    }
+}
