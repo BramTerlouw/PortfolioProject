@@ -11,6 +11,10 @@ Requirements:
 - Pictures skills
 - Future projects
 
+! Media queries !
+- tablet size
+- mobile size
+
 Calculations:
 ! Navbar li width = 76% !
 ! Individual width li = 25.3% !

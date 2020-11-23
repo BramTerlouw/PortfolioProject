@@ -312,7 +312,23 @@ img {
         height: 15vw;
     }
 
+    .skil-header {
+        text-align: center;
+    }
+
+    #html-article {
+        flex-basis: 70%;
+    }
+
+    #css-article {
+        flex-basis: 70%;
+    }
+
+    #cSharp-article {
+        flex-basis: 70%;
+    }
+
     .articleclass {
-        margin: 2% 25% 7% 25%;
+        margin: 2% 15% 5% 15%;
     }
 }
