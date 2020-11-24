@@ -52,18 +52,18 @@ li {
     display: inline;
 }
 
-li a {
-    text-decoration: none;
-    font-size: 24px;
-    border-bottom: 1px solid black;
-    padding: 10px 10px;
-    color: black;
-    display: block;
-    width: 25.3%;
-    margin-left: 4%;
-    margin-right: 4%;
-    float: left;
-}
+    li a {
+        text-decoration: none;
+        font-size: 24px;
+        border-bottom: 1px solid black;
+        padding: 10px 10px;
+        color: black;
+        display: block;
+        width: 25.3%;
+        margin-left: 4%;
+        margin-right: 4%;
+        float: left;
+    }
 
 a:hover {
     background-color: #2d2d2d;
